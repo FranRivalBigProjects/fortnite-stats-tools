@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+current.value,t=+target.value;if(!c||!t){res.innerText='Enter values';return;}res.innerText=`Needed: ${t-c}`;}

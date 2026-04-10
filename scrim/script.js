@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let arr=scores.value.split('\n').map(Number).filter(x=>!isNaN(x));if(!arr.length){res.innerText='Enter data';return;}res.innerText=`Avg: ${(arr.reduce((a,b)=>a+b,0)/arr.length).toFixed(2)}`;}

@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let s=+skill.value,p=+players.value;if(!s||!p){res.innerText='Enter values';return;}res.innerText=`Chance: ${(s/p*100).toFixed(2)}%`;}

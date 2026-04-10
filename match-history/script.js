@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let arr=matches.value.split('\n').map(Number).filter(x=>!isNaN(x));if(!arr.length){res.innerText='Enter data';return;}let wins=arr.filter(x=>x===1).length;res.innerText=`Winrate: ${(wins/arr.length*100).toFixed(2)}%`; }

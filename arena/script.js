@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let k=+kills.value,p=+placement.value;if(!k||!p){res.innerText='Enter values';return;}res.innerText=`Points: ${k*10+p*5}`;}
